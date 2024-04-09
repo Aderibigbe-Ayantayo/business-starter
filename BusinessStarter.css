@@ -1,0 +1,317 @@
+
+
+
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    /* list-style-type: none; */
+    height: 4rem;
+    font-family: sans-serif;
+    /* margin-bottom:2rem; */
+    padding-top: 1.5rem;
+
+
+}
+@media screen and (max-width:480px){
+    .container{
+        flex-basis: 100%;
+        color:blue
+    }
+}
+
+@media screen and (max-width:768px){
+    .container{
+        flex-basis: 50%;
+        color:red
+    }
+}
+
+
+
+
+
+.business{
+    /* margin:1rem; */
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    color:black;
+}
+
+
+.u{
+    background-color: black;
+    color: white;
+    height:2.5rem;
+    width:8rem;
+}
+
+
+.nav {
+    height: 20rem;
+    width: 30rem;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15rem;
+    
+}
+.fad{
+    justify-content: space-between;
+    display: flex;
+    width: 30rem;
+    height:20rem;
+    list-style-type: none;
+    opacity:0.5;
+    font-size: small;
+    letter-spacing: 0.1rem;
+
+}
+
+.fad a{
+    text-decoration: none;
+}
+a {
+    color:black;
+}
+
+.hero-content{
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    /* justify-content: space-between; */
+    align-items: center;
+    background-image: url("Business\ -\ Webflow\ Img.html\ 1.png");
+    height: 30rem;
+    color: white;
+    padding-top: 5rem;
+    position:relative;
+
+
+}
+
+.hero-content > div{
+    margin-top: 5rem;
+    /* font-size: 4rem; */
+}
+.GY{
+    font-size: 4rem;
+
+}
+.B{
+    font-size: 4rem;
+    position:absolute;
+    top:10rem;
+}
+div{
+    font-size: medium;
+}
+.give{
+    opacity:0.6;
+}
+
+.homepage{
+    position:absolute;
+    top:17rem;
+    opacity:0.6;
+}
+.learn{
+    align-items: center;
+    /* height:10rem;
+    width:16rem; */
+}
+
+.learn .first{
+    height:4rem;
+    width:13rem;
+    word-spacing: 0.3rem;
+    letter-spacing: 0.1rem;
+}
+
+.w{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 6rem;
+    margin-top: 5rem;
+    height:2rem;
+    justify-content:space-between;
+}
+
+.ww{
+    font-size: 0.8rem;
+    opacity:0.4;
+    letter-spacing: 0.1rem;
+    word-spacing: 0.2rem;
+}
+.GB{
+    font-size: 2.5rem;
+}
+
+.about{
+    display:flex;
+    flex-direction: column;
+    height:22rem;
+    width:100%;
+    padding-top:4rem;
+    position: relative;
+    justify-content:flex-start;
+    align-items: none;
+    /* background-image: url(./Business\ -\ Webflow\ Img.html\ 2.png); */
+}
+
+
+.Nul{
+    height: 14rem;
+    width:14rem;
+    font-size:large;
+    font-family: sans-serif;
+    opacity:0.5;
+}
+.ab{
+    font-size: small;
+    letter-spacing: 0.1rem;
+    margin-bottom: 1rem;
+    opacity:0.5;
+
+}
+.wwe{
+    font-size:xx-large;
+    font-family: sans-serif;
+    letter-spacing: 0.1rem;
+    margin-bottom: 1rem;
+
+}
+.more{
+    margin-top: 1rem;
+}
+
+.more >button{
+    height:3rem;
+    width:10rem;
+    word-spacing: 0.3rem;
+    letter-spacing: 0.1rem;
+    background-color: black;
+    color:white
+}
+
+img{
+    height: 22rem;
+    width:40rem;
+    position: absolute;
+    left:24rem;
+    bottom:1rem;
+    margin-right:5rem;
+}
+
+
+.tm{
+    display:flex;
+    flex-direction: column;
+    height:20rem;
+    width:100%;
+    padding-top:2rem;
+    justify-content:flex-start;
+    align-items: none;
+    position:relative;
+}
+
+
+.img2{
+    height: 15rem;
+    width:20rem;
+    position: absolute;
+    left:44rem;
+    top:4rem;
+
+
+}
+
+
+footer{
+    margin:2rem;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+background-color: #f4f4f4;
+height: 22rem;
+/* width:90%; */
+padding-top: 5rem;
+
+}
+
+.end{
+
+margin:1rem;
+font-family: sans-serif;
+font-size: large;
+opacity: 0.5;
+text-align: center;
+
+}
+h2{
+    letter-spacing: 0.1rem;
+    word-spacing: 0.2rem;
+    align-self: center;
+}
+
+.btn{
+    height:5rem;
+    width:10rem;
+    color:white;
+    margin:auto;
+}
+.btn >button{
+    height:3rem;
+    width:10rem;
+    word-spacing: 0.3rem;
+    letter-spacing: 0.1rem;
+    background-color: black;
+    color:white;
+  }
+
+  .contain{
+    height:19rem;
+    width:94%;
+    display:flex;
+    /* justify-content:center; */
+    column-gap: 4rem;
+    margin:3rem;
+}
+
+  .quick{
+    font-size: x-large;
+
+}
+
+.quick a{
+    text-decoration: none;
+}
+
+.lorem{
+    padding-top: 1.3rem;
+    opacity:0.5;
+    font-size:0.9rem;
+    font-family:sans-serif;
+    word-spacing: 0.2rem;
+}
+
+
+
+.powered >a{
+    text-decoration: none;
+    color: rgb(199, 211, 207);
+}
+
+.powered{
+    height: 4rem;
+    margin:auto;
+    width:9rem;
+    font-size: medium;
+    font-family:monospace;
+}
+
+.hov:hover{
+    color:black;
+    transition: 3s;
+}
+
